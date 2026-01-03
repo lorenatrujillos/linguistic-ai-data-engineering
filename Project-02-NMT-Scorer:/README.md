@@ -17,7 +17,7 @@ During the development of this pipeline, I identified a critical limitation in t
 
 
 ## Tech Stack
-- **Python 3.13.5
+- **Python** 3.13.5
 - **Pandas:** For advanced data framing and report generation.
 - **SacreBLEU:** For standardized MT evaluation.
 - **Openpyxl:** For professional Excel output.
