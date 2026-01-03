@@ -1,4 +1,4 @@
-# Module 01: Automated Linguistic Data Cleaner
+# Automated Linguistic Data Cleaner
 
 ## Project Purpose
 In the context of **LLM Training**, "garbage in, garbage out" is the golden rule. This module is a specialized ETL (Extract, Transform, Load) pipeline designed to sanitize raw medical bilingual datasets. It transforms noisy, unformatted Excel data into high-quality training pairs, ensuring that the model learns language patterns without being distracted by technical artifacts.
