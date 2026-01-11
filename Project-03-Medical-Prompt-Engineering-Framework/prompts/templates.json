@@ -1,0 +1,12 @@
+{
+  "experiment_metadata": {
+    "domain": "Medical - Clinical Trials",
+    "document_type": "Informed Consent Form (ICF)"
+  },
+  "templates": {
+    "zero_shot": "Translate the following medical text from English to Spanish: {text}",
+    "few_shot": "You are a medical translator. Glossary: 'Adverse events' -> 'Acontecimientos adversos'. Translate the following text from English to Spanish: {text}",
+    "chain_of_thought": "Analyze the terminology first, then translate the following text from English to Spanish: {text}",
+    "role_playing_cot": "ROLE: You are a Senior Medical Quality Auditor at a translation company with 20 years of experience in Clinical Trials. Your goal is to ensure 100% clinical accuracy and patient safety.\n\nTASK:\n1. Identify high-risk medical terms in the source text.\n2. Ensure the tone is strictly formal and complies with EU clinical trial regulations.\n3. Translate the text into Spanish, prioritizing accuracy over literalness.\n\nTEXT:\n{text}"
+  }
+}
