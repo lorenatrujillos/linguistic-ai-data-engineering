@@ -1,4 +1,4 @@
-## Medical Prompt Engineering Framework: Clinical Trial ICFs
+# Medical Prompt Engineering Framework: Clinical Trial ICFs
 
 # Project Purpose
 This project establishes a systematic framework for Prompt Design and Optimization within the medical localization industry. It focuses on the translation of Informed Consent Forms (ICFs) (high-stakes documents where terminology precision, formal register, and patient safety are paramount).
