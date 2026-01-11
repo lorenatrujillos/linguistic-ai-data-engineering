@@ -18,6 +18,4 @@ Systematic framework for LLM output optimization. Demonstrates the use of advanc
 
 - AI & NLP: Prompt Engineering, SacreBLEU, LLM Output Evaluation
 
-- Localization: NMT Quality Auditing, Medical Terminology Management, Data Privacy (GDPR/Pseudonymization)
-
 - Tools: Git, VS Code
