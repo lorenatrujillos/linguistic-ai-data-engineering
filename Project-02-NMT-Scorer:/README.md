@@ -8,7 +8,7 @@ This project is a precision tool designed to evaluate **Machine Translation** qu
 - **Critical Error Detection:** A custom-built Python engine that identifies "false friends" and high-risk mistranslations (e.g., *Fast* -> *Rápido* vs *Ayuno*) that standard AI metrics often miss.
 - **Actionable QA Reports:** Generates automated Excel reports with specific error flagging and suggested corrections to streamline the Post-editing workflow.
 
-## The "SacreBLEU Paradox" (Analytical Insight)
+## The "SacreBLEU Paradox"
 During the development of this pipeline, I identified a critical limitation in the **SacreBLEU metric**:
 * **The Issue:** Since BLEU relies on n-gram overlap (word-for-word matching), it often assigns high scores (e.g., >70) to sentences that contain **severe semantic errors**.
 * **Example:** In the phrase *"Fast for 8 hours"*, a translation of *"Rápido"* instead of *"Ayune"* receives a high score because the rest of the sentence matches, even though the medical meaning is completely lost.
