@@ -15,13 +15,13 @@ I developed and compared two primary translation strategies to process an offici
 # Technical Architecture
 The framework is built with the following structure:
 
-prompt_experiment.py: The Python engine that manages file paths, loads clinical data, and injects text into engineered templates.
+- prompt_experiment.py: The Python engine that manages file paths, loads clinical data, and injects text into engineered templates.
 
-prompts/templates.json: A central repository for prompt versioning, allowing for logic updates without modifying the source code.
+- prompts/templates.json: A central repository for prompt versioning, allowing for logic updates without modifying the source code.
 
-data/source_text.txt: The raw source document (WHO ICF Phase III Template).
+- data/source_text.txt: The raw source document (WHO ICF Phase III Template).
 
-outputs/: A directory containing the resulting translations from Zero-Shot and Role-Playing prompting techniques and the analysis report of these translations.
+- outputs/: A directory containing the resulting translations from Zero-Shot and Role-Playing prompting techniques and the analysis report of these translations.
 
 # Why This Matters
 This project demonstrates that in a professional environment, AI is not used as a "black box" but as a precision tool guided by Linguistic Engineering. By structuring prompts as data (JSON) and scripts (Python), we ensure that AI outputs are predictable, auditable, and ready for clinical use.
