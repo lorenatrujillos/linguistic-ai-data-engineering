@@ -1,6 +1,8 @@
 # Linguistic AI & Data Engineering Suite
 
-Welcome to my professional portfolio of Python tools designed for the AI and Localization industry. This repository contains end-to-end solutions for handling, cleaning, and auditing bilingual datasets for Machine Learning.
+Welcome to my professional portfolio. This repository showcases a suite of Python-powered tools specifically engineered for the AI and Localization industry.
+
+As a Language Specialist & AI Champion, I developed these solutions to bridge the gap between raw linguistic data and high-quality assets ready for Large Language Model (LLM) training and NMT evaluation.
 
 ## 📂 Projects Included
 
